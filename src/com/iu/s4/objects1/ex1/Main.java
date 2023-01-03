@@ -9,5 +9,6 @@ public class Main {
 		mc.start();
 		System.out.println("집에서 추가한 내용");
 		System.out.println("Finish");
+		// 추가한 주석
 	}
 }
