@@ -7,7 +7,7 @@ public class Main {
 		MenuController mc = new MenuController();
 
 		mc.start();
-		
+		System.out.println("집에서 추가한 내용");
 		System.out.println("Finish");
 	}
 }
