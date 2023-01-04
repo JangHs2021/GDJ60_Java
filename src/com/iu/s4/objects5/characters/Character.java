@@ -9,7 +9,11 @@ public abstract class Character {
 		this.name = name;
 	}
 	
-	public abstract void attack();
+	public void attack() {
+		
+	}
+	
+	public Character() {}
 	
 	public int getLevel() {
 		return level;

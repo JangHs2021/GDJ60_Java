@@ -1,6 +1,6 @@
 package com.iu.s4.objects5.characters;
 
-public class Archer extends Character {
+public class Archer extends Character implements AttackAble {
 	private int dex;
 	
 	public Archer() {
@@ -8,12 +8,13 @@ public class Archer extends Character {
 	}
 	
 	@Override
-	public void attack() {
+	public void attatck() {
+		// TODO Auto-generated method stub
 		System.out.println("활 굥격");
 	}
 	
 	public void move() {
-		System.err.println("이동");
+		System.out.println("이동");
 	}
 	
 	public int getDex() {
