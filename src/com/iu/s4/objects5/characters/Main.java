@@ -3,17 +3,15 @@ package com.iu.s4.objects5.characters;
 public class Main {
 
 	public static void main(String[] args) {
-		Magition magition = new Magition();
-		magition.getMp();
-		magition.setMp(0);
-		magition.setHp(0);
-		magition.attack();
-		
 		Archer archer = new Archer();
-		archer.setDex(0);
-		archer.setLevel(5);
-		archer.attack();
+		Knight knight = new Knight();
 		
-//		Character character = new Character();
+		Character character = null;
+		
+		character = archer;
+		
+		archer = (Archer)character;
+		
+		knight.attatck();
 	}
 }

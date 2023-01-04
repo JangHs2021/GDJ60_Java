@@ -5,10 +5,10 @@ public class IceMagition extends Magition {
 	// hp
 	// mp
 	
-	@Override
-	public void attack() {
-		
-	}
+//	@Override
+//	public void attack() {
+//		
+//	}
 	
 	@Override
 	public void spell() {
