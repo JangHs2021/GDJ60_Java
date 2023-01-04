@@ -1,11 +1,13 @@
 package com.iu.s4.objects4;
 
-public class God {
-	private String name;
+public final class God {
+	private static final String MY_NAME = "";
 	
 	private static God god;
 	
-	private God() {}
+	private God() {
+//		this.name = "test";
+	}
 
 	public static God getInstance() {
 		
@@ -15,11 +17,11 @@ public class God {
 		return God.god;
 	}
 	
-	public String getName() {
-		return name;
-	}
+//	public final String getName() {
+//		return name;
+//	}
 
 	public void setName(String name) {
-		this.name = name;
+//		this.name = name;
 	}
 }

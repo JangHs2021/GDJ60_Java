@@ -10,10 +10,10 @@ public class GodMain {
 		god.setName("유일신");
 		
 		System.out.println("God : " + god);
-		System.out.println("Name : " + god.getName());
+//		System.out.println("Name : " + god.getName());
 		
 		god = God.getInstance();
 		System.out.println("God : " + god);
-		System.out.println("Name : " + god.getName());
+//		System.out.println("Name : " + god.getName());
 	}
 }
